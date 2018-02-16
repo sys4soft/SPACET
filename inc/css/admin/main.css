@@ -1,0 +1,194 @@
+/* ficheiro principal de CSS*/
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.mrg-ver-5 {
+  margin: 5px 0px; }
+
+.mrg-ver-10 {
+  margin: 10px 0px; }
+
+.mrg-ver-15 {
+  margin: 15px 0px; }
+
+.mrg-ver-20 {
+  margin: 20px 0px; }
+
+.mrg-ver-30 {
+  margin: 30px 0px; }
+
+.mrg-ver-40 {
+  margin: 40px 0px; }
+
+.mrg-hor-5 {
+  margin: 0px 5px; }
+
+.mrg-hor-10 {
+  margin: 0px 10px; }
+
+.mrg-hor-15 {
+  margin: 0px 15px; }
+
+.mrg-hor-20 {
+  margin: 0px 20px; }
+
+.mrg-hor-30 {
+  margin: 0px 30px; }
+
+.mrg-hor-40 {
+  margin: 0px 40px; }
+
+.mrg-5 {
+  margin: 5px; }
+
+.mrg-10 {
+  margin: 10px; }
+
+.mrg-15 {
+  margin: 15px; }
+
+.mrg-20 {
+  margin: 20px; }
+
+.mrg-30 {
+  margin: 30px; }
+
+.mrg-40 {
+  margin: 40px; }
+
+.pad-ver-5 {
+  padding: 5px 0px; }
+
+.pad-ver-10 {
+  padding: 10px 0px; }
+
+.pad-ver-15 {
+  padding: 15px 0px; }
+
+.pad-ver-20 {
+  padding: 20px 0px; }
+
+.pad-ver-30 {
+  padding: 30px 0px; }
+
+.pad-ver-40 {
+  padding: 40px 0px; }
+
+.pad-hor-5 {
+  padding: 0px 5px; }
+
+.pad-hor-10 {
+  padding: 0px 10px; }
+
+.pad-hor-15 {
+  padding: 0px 15px; }
+
+.pad-hor-20 {
+  padding: 0px 20px; }
+
+.pad-hor-30 {
+  padding: 0px 30px; }
+
+.pad-hor-40 {
+  padding: 0px 40px; }
+
+.pad-esq-5 {
+  padding-left: 5px; }
+
+.pad-esq-10 {
+  padding-left: 10px; }
+
+.pad-esq-15 {
+  padding-left: 15px; }
+
+.pad-esq-20 {
+  padding-left: 20px; }
+
+.pad-dir-5 {
+  padding-right: 5px; }
+
+.pad-dir-10 {
+  padding-right: 10px; }
+
+.pad-dir-15 {
+  padding-right: 15px; }
+
+.pad-dir-20 {
+  padding-right: 20px; }
+
+.pad-5 {
+  padding: 5px; }
+
+.pad-10 {
+  padding: 10px; }
+
+.pad-15 {
+  padding: 15px; }
+
+.pad-20 {
+  padding: 20px; }
+
+.pad-30 {
+  padding: 30px; }
+
+.pad-40 {
+  padding: 40px; }
+
+.btn-size-100 {
+  width: 100px; }
+
+.btn-size-150 {
+  width: 150px; }
+
+.btn-size-200 {
+  width: 200px; }
+
+.btn-size-250 {
+  width: 250px; }
+
+.btn-size-300 {
+  width: 300px; }
+
+.btn-transparent {
+  background-color: transparent; }
+
+/* cabecalho */
+.cabecalho {
+  padding: 20px;
+  background-color: black;
+  color: white; }
+
+/* barra dos utilizadores */
+.barra_utilizadores {
+  margin: 0px;
+  padding: 20px;
+  text-align: right;
+  background-color: #202020;
+  color: #8fa9e2; }
+  .barra_utilizadores a {
+    text-decoration: none;
+    color: black;
+    background-color: white; }
+  .barra_utilizadores a:hover {
+    color: #c2c2c2;
+    background-color: #5f5f5f; }
+
+.barra_utilizador_inativo {
+  color: #505050; }
+
+.barra_utilizador_ativo {
+  color: white; }
+
+.permissao-titulo {
+  font-weight: bold; }
+
+.permissao-sumario {
+  font-size: .8em;
+  font-style: italic;
+  opacity: .7; }
+
+.caixa-permissoes label {
+  margin: 0px !important; }
+
+/*# sourceMappingURL=main.css.map */

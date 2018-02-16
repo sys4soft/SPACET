@@ -1,0 +1,14 @@
+/* barra de cliente */
+.barra-cliente{
+    background: linear-gradient(black, rgb(71, 71, 71));
+    color: white;
+    padding: 10px;
+}
+
+.barra-cliente a{
+    text-decoration: none;
+    color: rgb(121, 188, 250);
+}
+.barra-cliente a:hover{
+    color: rgb(253, 253, 253);
+}

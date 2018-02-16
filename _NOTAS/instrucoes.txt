@@ -2,6 +2,18 @@ SASS
 sass -w inc/sass:inc/
 
 
+<?php 
+    // ========================================
+    // xxxxxxx
+    // ========================================
+
+    // verificar a sessão
+    if(!isset($_SESSION['a'])){
+        exit();
+    }    
+?>
+
+
 
 
 <div class="container">

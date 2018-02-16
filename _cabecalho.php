@@ -15,10 +15,19 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="inc/main_web.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="inc/css/web/main_web.css">
 </head>
 <body>
+<div class="bg-white">
 
-<div class="container-fluid cabecalho text-center">
-    <p>Cabeçalho da página web</p>
+<?php 
+    // ========================================================
+    // inclui a barra de clientes
+    include_once('clientes/barra_cliente.php');
+?>
+
+<!-- cabecalho -->
+<div class="container-fluid cabecalho">
+    <img class="logo" src="images/logo.png">    
 </div>

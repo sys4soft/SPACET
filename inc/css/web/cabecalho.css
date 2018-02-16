@@ -1,0 +1,8 @@
+.cabecalho{
+    background-image: url("../../../images/background_topo.jpg");
+    height: 200px;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}

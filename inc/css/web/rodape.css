@@ -1,0 +1,10 @@
+/* rodape */
+.rodape{
+    margin-top: 30px;
+    color:rgb(150, 150, 150);
+    font-size: .8em;
+}
+
+.rodape-social{
+    font-size: 2.5em;
+}
