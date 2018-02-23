@@ -2,8 +2,13 @@
 @import url("cabecalho.css");
 @import url("index.css");
 @import url("rodape.css");
+@import url("signup.css");
 
 body{
     background-color: black;
     color: white;
+}
+
+.borda{
+    border: 1px solid red;
 }

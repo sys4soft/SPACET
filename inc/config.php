@@ -14,7 +14,10 @@ return [
     'MAIL_USERNAME'     => 'spacetproject@gmail.com',
     'MAIL_PASSWORD'     => 'space!123',
     'MAIL_FROM'         => 'spacetproject@gmail.com',
-    'MAIL_DEBUG'        => 0    
+    'MAIL_DEBUG'        => 0, 
+    
+    //endereço base
+    'BASE_URL'          =>'http://spacet.dev.com/'
 ]   
 
 ?>
