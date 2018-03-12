@@ -81,15 +81,11 @@
                 (:nome, :email, :utilizador, :palavra_passe, :codigo_validacao, :validada, :criado_em, :atualizado_em)
             ',$parametros);
 
-
-
-
-
             //envio do email para o cliente validar a sua nova conta
             $email_a_enviar = new emails();
 
             //criar o link de ativação
-            $config = require_once('inc/config.php');
+            $config = include('inc/config.php');
             $link = $config['BASE_URL'].'?a=validar&v='.$parametros[':codigo_validacao'];            
 
             //preparação dos dados do email

@@ -22,6 +22,16 @@
         }
 
         // =======================================================
+        public static function VerificarLoginCliente(){
+            //verifica se o cliente tem sessão ativa
+            $resultado = false;
+            if(isset($_SESSION['id_cliente'])){
+                $resultado = true;
+            }
+            return $resultado;
+        }
+
+        // =======================================================
         public static function IniciarSessao($dados){
             //iniciar a sessão
             $_SESSION['id_utilizador'] = $dados[0]['id_utilizador'];
@@ -31,12 +41,28 @@
         }
 
         // =======================================================
+        public static function IniciarSessaoCliente($dados){
+            //iniciar a sessão do cliente
+            $_SESSION['id_cliente'] = $dados[0]['id_cliente'];
+            $_SESSION['nome_cliente'] = $dados[0]['nome'];
+            $_SESSION['email_cliente'] = $dados[0]['email'];
+        }
+
+        // =======================================================
         public static function DestroiSessao(){
             //destroi as variáveis da sessão
             unset($_SESSION['id_utilizador']);
             unset($_SESSION['nome']);
             unset($_SESSION['email']);
             unset($_SESSION['permissoes']);
+        }
+
+        // =======================================================
+        public static function DestroiSessaoCliente(){
+            //destroi as variáveis da sessão do cliente
+            unset($_SESSION['id_cliente']);
+            unset($_SESSION['nome_cliente']);
+            unset($_SESSION['email_cliente']);
         }
 
         // =======================================================

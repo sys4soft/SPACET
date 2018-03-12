@@ -29,5 +29,5 @@
 
 <!-- cabecalho -->
 <div class="container-fluid cabecalho">
-    <img class="logo" src="images/logo.png">    
+    <a href="?a=home"><img class="logo" src="images/logo.png"></a>
 </div>

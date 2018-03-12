@@ -1,14 +1,8 @@
-@import url("barra_cliente.css");
-@import url("cabecalho.css");
-@import url("index.css");
-@import url("rodape.css");
-@import url("signup.css");
-
-body{
-    background-color: black;
-    color: white;
-}
-
-.borda{
-    border: 1px solid red;
-}
+@import url("_main.css");
+@import url("_barra_cliente.css");
+@import url("_cabecalho.css");
+@import url("_index.css");
+@import url("_rodape.css");
+@import url("_signup.css");
+@import url("_clientes.css");
+@import url("_perfil.css");

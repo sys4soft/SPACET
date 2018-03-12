@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: black;
+}
+
+.borda{
+    border: 1px solid red;
+}
+
+.btn-size-100 {
+  width: 100px; }
+
+.btn-size-150 {
+  width: 150px; }
+
+.btn-size-200 {
+  width: 200px; }
+
+.btn-size-250 {
+  width: 250px; }
+
+.btn-size-300 {
+  width: 300px; }
